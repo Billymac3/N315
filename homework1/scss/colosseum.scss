@@ -1,0 +1,104 @@
+#colo {
+    // height: 100%;
+    // background-image: linear-gradient( to top, rgba(0,0,0, 0.2), 
+    // rgba(0,0,0,0.7)), 
+    // url(../images/hero.jpg);
+    background-color: #0d2a4e;
+    // background-repeat: no-repeat;
+    // background-position: top;
+    // background-size: cover;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+
+    .content {
+        display: flex;
+        width: 80%;
+        padding: 30px;
+        flex-direction: column;
+        
+
+        .text {
+            width: 75%;
+        }
+
+
+        .site-img-container {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            // background-color: coral;
+            
+            .site-img {
+                width: 48%;
+                margin-bottom: 30px;
+                background-color: yellowgreen;
+                // justify-content: flex-end;
+                
+            }
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .content {
+            display: flex;
+            width: 80%;
+            padding: 30px;
+            flex-direction: column;
+            
+    
+            .text {
+                width: 100%;
+            }
+    
+    
+            .site-img-container {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                // background-color: coral;
+                
+                .site-img {
+                    width: 48%;
+                    margin-bottom: 30px;
+                    background-color: yellowgreen;
+                    // justify-content: flex-end;
+                    
+                }
+            }
+        }
+    }
+
+    @media (max-width: 850px) {
+        .content {
+            display: flex;
+            width: 80%;
+            padding: 30px;
+            flex-direction: column;
+            
+    
+            .text {
+                width: 100%;
+            }
+    
+    
+            .site-img-container {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                flex-direction: column;
+                // background-color: coral;
+                
+                .site-img {
+                    width: 100%;
+                    margin-bottom: 30px;
+                    background-color: yellowgreen;
+                    // justify-content: flex-end;
+                    
+                }
+            }
+        }
+    }
+
+}
