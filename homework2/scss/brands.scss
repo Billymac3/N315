@@ -1,13 +1,8 @@
-.history {
-    min-height: 50px;
-    // height: 85%;
-    background-color: #de9126;
+.brands {
+    min-height: 600px;
+    background-color: #4d77eb;
     background-repeat: no-repeat;
-    // background-size: auto;
     display: flex; 
-    // align-items: center;
-    // justify-content: center;
-    // flex-direction: row;
     flex-direction: column;
     padding: 35px;
         
@@ -15,31 +10,30 @@
             font-size: 330%;
             display: block;
         }
+        .sublist {
+            margin-left: 15px;
+        }
         .section-container {
             display: flex;
             flex-direction: row;
-            // min-height: 600px;
             justify-content: space-between;
            .text {
             width: 60%;
+            font-size: 22px;
+            color: oldlace;
            
-            p {
-                font-size: 22px;
-                
-            }
+            
         }
-            .william-img {
-                background-image:  url(../images/William-G-Morgan.jpg);
+            .brands-img {
+                background-image:  url(../images/brands.jpg);
                 width: 35%;
-                min-height: 500px;
+                min-height: 400px;
                 max-height: 600px;
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-position: top;
+                background-position: bottom;
                 margin: 0px;
                 border-radius: 15px 15px 15px 15px;
-                // text-align: center;
-                // justify-content: center;
             }
         }
        

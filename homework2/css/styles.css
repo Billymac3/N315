@@ -161,7 +161,7 @@ nav {
       max-height: 600px;
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center;
+      background-position: top;
       margin: 0px;
       border-radius: 15px 15px 15px 15px; }
 
@@ -325,6 +325,95 @@ nav {
       border-radius: 15px 15px 15px 15px; }
     .skills .section-container .set-img {
       background-image: url(../images/set.jpg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+
+.terms {
+  min-height: 600px;
+  background-color: #4d77eb;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .terms h1 {
+    font-size: 330%;
+    display: block; }
+  .terms .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .terms .section-container .text {
+      width: 60%;
+      font-size: 22px;
+      color: oldlace; }
+    .terms .section-container .terms-img {
+      background-image: url(../images/terms.jpeg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+
+.brands {
+  min-height: 600px;
+  background-color: #4d77eb;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .brands h1 {
+    font-size: 330%;
+    display: block; }
+  .brands .sublist {
+    margin-left: 15px; }
+  .brands .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .brands .section-container .text {
+      width: 60%;
+      font-size: 22px;
+      color: oldlace; }
+    .brands .section-container .brands-img {
+      background-image: url(../images/brands.jpg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+
+.equipment {
+  min-height: 600px;
+  background-color: #de9126;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .equipment h1 {
+    font-size: 330%;
+    display: block; }
+  .equipment .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .equipment .section-container .text {
+      width: 60%;
+      font-size: 22px;
+      color: oldlace; }
+    .equipment .section-container .equipment-img {
+      background-image: url(../images/equipment.jpg);
       width: 35%;
       min-height: 400px;
       max-height: 600px;
