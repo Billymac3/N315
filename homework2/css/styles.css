@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  font-family: sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 15px;
+  color: oldlace;
+  font-family: sans-serif; }
+
+.content {
+  height: 100%; }
+
+div {
+  border-radius: 15px;
+  margin: 10px; }
+
+nav {
+  width: 99%;
+  height: 75px;
+  display: flex;
+  background-color: #4d77eb;
+  border-radius: 15px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; }
+  nav nav img {
+    width: 150px;
+    left: 75px;
+    top: 25px;
+    background-image: url(../images/hero-player.png); }
+  nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: oldlace;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px; }
+  nav .link-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    flex-direction: row;
+    justify-content: flex-end; }
+    nav .link-container .links {
+      text-decoration: none;
+      font-size: 35px;
+      color: oldlace;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-right: 50px; }
+  @media (max-width: 1050px) {
+    nav .logo {
+      position: fixed;
+      width: 100px;
+      left: 75px;
+      top: 35px; }
+    nav .link-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin-left: 50px;
+      flex-direction: row;
+      justify-content: flex-end; }
+      nav .link-container .links {
+        text-decoration: none;
+        font-size: 25px;
+        color: oldlace;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 50px; } }
+  @media (max-width: 1050px) {
+    nav .logo {
+      position: fixed;
+      width: 100px;
+      left: 75px;
+      top: 35px; }
+    nav .link-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin-left: 50px;
+      flex-direction: row;
+      justify-content: flex-end; }
+      nav .link-container .links {
+        text-decoration: none;
+        font-size: 20px;
+        color: oldlace;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 30px; } }
+
+.hero {
+  height: 85%;
+  background-color: #de9126;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; }
+  .hero .callout {
+    color: oldlace;
+    text-align: center;
+    justify-content: center;
+    width: 60%; }
+    .hero .callout h1 {
+      font-size: 330%; }
+    .hero .callout h4 {
+      font-size: 230%; }
+  .hero .hero-player {
+    background-image: url(../images/hero-player.png);
+    width: 35%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  @media (max-width: 900px) {
+    .hero .callout {
+      color: oldlace;
+      font-family: sans-serif;
+      text-align: center;
+      justify-content: center; }
+      .hero .callout h1 {
+        font-size: 230%; }
+      .hero .callout h4 {
+        font-size: 230%; } }
+  @media (max-width: 650px) {
+    .hero .callout {
+      color: oldlace;
+      font-family: sans-serif;
+      text-align: center;
+      justify-content: center; }
+      .hero .callout h1 {
+        font-size: 180%; }
+      .hero .callout h4 {
+        font-size: 165%; } }
+
+.history {
+  min-height: 50px;
+  background-color: #de9126;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .history h1 {
+    font-size: 330%;
+    display: block; }
+  .history .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .history .section-container .text {
+      width: 60%; }
+      .history .section-container .text p {
+        font-size: 22px; }
+    .history .section-container .william-img {
+      background-image: url(../images/William-G-Morgan.jpg);
+      width: 35%;
+      min-height: 500px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+
+.about {
+  min-height: 600px;
+  background-color: #4d77eb;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .about h1 {
+    font-size: 330%;
+    display: block; }
+  .about .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .about .section-container .text {
+      width: 60%; }
+      .about .section-container .text p {
+        font-size: 22px; }
+    .about .section-container .about-img {
+      background-image: url(../images/about.jpg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+
+.beach {
+  min-height: 600px;
+  background-color: #4d77eb;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .beach h1 {
+    font-size: 330%;
+    display: block; }
+  .beach .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .beach .section-container .text {
+      width: 60%; }
+      .beach .section-container .text p {
+        font-size: 22px; }
+    .beach .section-container .beach-img {
+      background-image: url(../images/beach.jpg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+
+.rules {
+  min-height: 600px;
+  background-color: #de9126;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .rules h1 {
+    font-size: 330%;
+    display: block; }
+  .rules .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .rules .section-container .text {
+      width: 60%;
+      font-size: 22px;
+      color: oldlace; }
+    .rules .section-container .rules-img {
+      background-image: url(../images/beach.jpg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+
+.violations {
+  min-height: 600px;
+  background-color: #4d77eb;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .violations h1 {
+    font-size: 330%;
+    display: block; }
+  .violations .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .violations .section-container .text {
+      width: 60%;
+      font-size: 22px;
+      color: oldlace; }
+    .violations .section-container .violations-img {
+      background-image: url(../images/beach.jpg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+
+.skills {
+  min-height: 600px;
+  background-color: #de9126;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .skills h1 {
+    font-size: 330%;
+    display: block; }
+  .skills h4 {
+    margin-top: 16px;
+    font-size: 230%;
+    display: block; }
+  .skills .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .skills .section-container .text {
+      width: 60%;
+      font-size: 22px;
+      color: oldlace; }
+    .skills .section-container .serve-img {
+      background-image: url(../images/serve.jpg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+    .skills .section-container .pass-img {
+      background-image: url(../images/pass.jpeg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+    .skills .section-container .set-img {
+      background-image: url(../images/set.jpg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }

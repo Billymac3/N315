@@ -1,0 +1,49 @@
+.history {
+    min-height: 50px;
+    // height: 85%;
+    background-color: #de9126;
+    background-repeat: no-repeat;
+    // background-size: auto;
+    display: flex; 
+    // align-items: center;
+    // justify-content: center;
+    // flex-direction: row;
+    flex-direction: column;
+    padding: 35px;
+        
+        h1 {
+            font-size: 330%;
+            display: block;
+        }
+        .section-container {
+            display: flex;
+            flex-direction: row;
+            // min-height: 600px;
+            justify-content: space-between;
+           .text {
+            width: 60%;
+           
+            p {
+                font-size: 22px;
+                
+            }
+        }
+            .william-img {
+                background-image:  url(../images/William-G-Morgan.jpg);
+                width: 35%;
+                min-height: 500px;
+                max-height: 600px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin: 0px;
+                border-radius: 15px 15px 15px 15px;
+                // text-align: center;
+                // justify-content: center;
+            }
+        }
+       
+    
+    
+
+}

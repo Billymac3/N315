@@ -1,0 +1,15 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "description": "A site explaining volleyball",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss/styles.scss css/styles.css -w"
+  },
+  "author": "Billy McIntyre",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

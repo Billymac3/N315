@@ -1,0 +1,40 @@
+.violations {
+    min-height: 600px;
+    background-color: #4d77eb;
+    background-repeat: no-repeat;
+    display: flex; 
+    flex-direction: column;
+    padding: 35px;
+        
+        h1 {
+            font-size: 330%;
+            display: block;
+        }
+        .section-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+           .text {
+            width: 60%;
+            font-size: 22px;
+            color: oldlace;
+           
+            
+        }
+            .violations-img {
+                background-image:  url(../images/beach.jpg);
+                width: 35%;
+                min-height: 400px;
+                max-height: 600px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: top;
+                margin: 0px;
+                border-radius: 15px 15px 15px 15px;
+            }
+        }
+       
+    
+    
+
+}
