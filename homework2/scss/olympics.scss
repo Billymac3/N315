@@ -1,0 +1,41 @@
+.olympics {
+    min-height: 600px;
+    background-color: #de9126;
+    background-repeat: no-repeat;
+    display: flex; 
+    flex-direction: column;
+    padding: 35px;
+        
+        h1 {
+            font-size: 330%;
+            display: block;
+        }
+        .section-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+           .text {
+            width: 60%;
+           
+            p {
+                font-size: 22px;
+                
+            }
+        }
+            .olympics-img {
+                background-image:  url(../images/olympics.jpg);
+                width: 35%;
+                min-height: 400px;
+                max-height: 600px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: left;
+                margin: 0px;
+                border-radius: 15px 15px 15px 15px;
+            }
+        }
+       
+    
+    
+
+}

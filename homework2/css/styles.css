@@ -394,6 +394,67 @@ nav {
       margin: 0px;
       border-radius: 15px 15px 15px 15px; }
 
+.contact {
+  min-height: 600px;
+  background-color: #4d77eb;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  padding-left: 300px;
+  padding-right: 300px;
+  color: oldlace; }
+  .contact h1 {
+    font-size: 330%;
+    display: block; }
+  .contact input[type=text], .contact select, .contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid oldlace;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; }
+  .contact input[type=submit] {
+    background-color: #de9126;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; }
+  .contact input[type=submit]:hover {
+    background-color: #45a049; }
+
+.olympics {
+  min-height: 600px;
+  background-color: #de9126;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 35px; }
+  .olympics h1 {
+    font-size: 330%;
+    display: block; }
+  .olympics .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .olympics .section-container .text {
+      width: 60%; }
+      .olympics .section-container .text p {
+        font-size: 22px; }
+    .olympics .section-container .olympics-img {
+      background-image: url(../images/olympics.jpg);
+      width: 35%;
+      min-height: 400px;
+      max-height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left;
+      margin: 0px;
+      border-radius: 15px 15px 15px 15px; }
+
 .equipment {
   min-height: 600px;
   background-color: #de9126;
